@@ -1,20 +1,23 @@
 import Link from "next/link"
-import style from "../styles/Navbar"
 
 export default function Navbar(){
     return(<div className="Navbar">
+        <h1>Connor Turner</h1>
 <ul>
     <li><Link href="/">
-    Home
+    <a>Home</a>
     </Link></li>
     <li><Link href="/about">
-    About
+    <a>About</a>
+    </Link></li>
+    <li><Link href="/projects">
+    <a>Projects</a>
     </Link></li>
     <li><Link href="/contact">
-    Contact
+    <a>Contact</a>
     </Link></li>
     <li><Link href="/random">
-    Random
+    <a>Random</a>
     </Link></li>
 </ul>
     </div>

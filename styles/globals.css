@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Creepster&family=Monoton&family=Shrikhand&display=swap');
+/* font-family: 'Bangers', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Shrikhand', cursive; */
+
+
+/* General */
+html{
+    background-image: linear-gradient(rgb(43, 140, 250),rgb(0, 0, 28));
+    height: 100%;
+}
+body{
+    color:rgb(216, 216, 216);
+    margin:0;
+    padding:0 10px 20px 10px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+h1,h2,h3,h4,h5{
+    margin:0 auto 0 auto;
+    padding:0;
+}
+h1{
+    font-size: 3.7rem;
+    padding-top:15px;
+}
+h2{
+    font-family: 'Carter One', cursive;
+    background:linear-gradient(90deg, rgb(36, 114, 202),rgb(150, 43, 250));
+    background-size: 100% 6px;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    width:fit-content;
+    padding:0 15px 0 15px;
+}
+
+
+/* home */
+.home1{
+    width:80%;
+    margin:0 auto 30px auto;
+    border:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Greeting{
+    min-width:50%;
+    padding:0 10px
+}
+
+
+/* IMG Class for images */
+
+.IMG{
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+/* Nav Bar */
+.Navbar{
+    padding:0;
+    width:fit-content;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Navbar ul{
+    list-style-type: none;
+    padding:5px 0 5px 0;
+}
+.Navbar li{
+    display: inline;
+    padding:1px 7px;
+    margin:10px;
+    border-bottom: 2px solid ;
+}
+.Navbar a{
+    text-decoration: none;
+    color:rgb(216, 216, 216);
+}
+
+
+
+/* Content */
+.content{
+    background-color: rgba(175,175,175,40%) ;
+    margin: 0 auto 10px auto;
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+    max-width: 1365px;
+    color:rgb(27, 27, 27);
+}
+
+/* Contact Content */
+.mediabar{
+    display:flex;
+    margin-bottom: 10px;
+    padding:0 40px;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    background-color: rgba(175,175,175,40%) ;
+    border-radius: 15px;
+    padding:15px;
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    box-shadow: 12px 12px 15px black;
+}
+.media:hover{
+    background-color: white ;
+}
+.media p{
+    padding: 0 20px;
+}
+
+.media span{
+    height:fit-content; 
+}
+/* Contact form */
+.FormContainer{
+    background-color: rgba(175,175,175,40%) ;
+    border-radius: 15px;
+    margin:10px auto 15px auto;
+    width:95%;
+    padding:10px;
+    box-shadow: 12px 12px 15px black;
+}
+form{
+    padding:15px;
+}
+form input, form textarea{
+    display: block;
+    margin:0 auto 20px auto;
+    padding-left:10px;
+    height:20px;
+    width:45%;
+    border:rgb(4, 0, 53) 2px solid;
+    border-radius: 10px;
+}
+form textarea{
+    height: 60px;
+    font-family: sans-serif;
+}
+.FormIntrotext{
+    padding-top:20px;
+    padding-bottom: 10px;
+}
