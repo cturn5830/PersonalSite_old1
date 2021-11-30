@@ -16,12 +16,14 @@ export default function Content(){
                 <p>@Connor Turner</p>
         </a>
         
-            <div className="media">
+            <a className="media">
+                
                 <span>
                 <Image src={Gmailimg} alt="Email icon"width={100}height={100}/>
                 </span>
                 <p>cturn5830@gmail.com</p>
-            </div>
+                
+            </a>
        
         <a className="media" target="_blank" href="https://www.instagram.com/captainturn/">
                 <span>

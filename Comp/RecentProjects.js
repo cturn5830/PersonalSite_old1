@@ -7,7 +7,7 @@ export default function Recentproject(){
     return(<div className="Recentprojects">
         <h2>Recent Projects</h2>
         <div>
-
+Place Holder text for Recent projects
         </div>
     </div>)
 }
