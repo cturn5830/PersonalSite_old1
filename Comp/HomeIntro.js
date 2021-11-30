@@ -1,7 +1,7 @@
 import Image from "next/dist/client/image"
 import PlaceHolder from "../public/img/PHIMG.jpg"
 import Recentproject from "./RecentProjects"
-import Heroimg from "../public/img/Heroimg.jpg"
+import Heroimg from "../public/img/HeroImg.jpg"
 import HowIDoIt from "./HowIDoIt"
 
 export default function Introcontent(){

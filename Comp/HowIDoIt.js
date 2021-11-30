@@ -4,7 +4,7 @@ import HTMLimg from "../public/img/HTML.png"
 import CSSimg from "../public/img/CSS.png"
 import JSimg from "../public/img/JS.png"
 import REACTimg from "../public/img/React.png"
-import WPimg from "../public/img/Wordpress.png"
+import WPimg from "../public/img/WordPress.png"
 
 
 export default function HowIDoIt(){
