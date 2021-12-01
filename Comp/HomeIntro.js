@@ -4,10 +4,11 @@ import Recentproject from "./RecentProjects"
 import Heroimg from "../public/img/HeroImg.jpg"
 import HowIDoIt from "./HowIDoIt"
 
+
 export default function Introcontent(){
     return(<div className="content">
         <div className="home1">
-            <div className="Heroimg"><Image src={Heroimg} alt="Hero"/></div>
+            <img className="Heroimg" src="/img/HeroImg.jpg" alt="Hero"/>
             <div className="Greeting">
             <h2>Howdy There!</h2>
             <p>What am I all about? 
