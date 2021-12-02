@@ -9,19 +9,20 @@ font-family: 'Shrikhand', cursive; */
 /* General */
 html{
     background-image: linear-gradient(rgb(0, 4, 65), rgb(62, 0, 65));
-    size: cover;
-    background-repeat: no-repeat;
+    size: 100%;
+    background-repeat: repeat-x;
     background-color:rgb(62, 0, 65);
+    margin: 0;
+    padding:0;
 }
             /* Old Gradent 
             background-image: linear-gradient(rgb(43, 140, 250),rgb(0, 0, 28)); */
 
 body{
+    width:inherit;
     color:rgb(216, 216, 216);
     margin:0;
     padding:0 10px 20px 10px;
-    background-repeat: no-repeat;
-    background-size:100% 100%;
     font-family: sans-serif;
     font-size: 25px;
 }
@@ -65,6 +66,7 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
 }
+
 .Greeting{
     width:100%;
     padding:0 10px;
@@ -106,6 +108,12 @@ a:hover{
     padding-right:7%
 }
 
+
+@media (max-width:1000px){
+    .home1{display: inline !important;}
+    .Heroimg{width:90% !important;
+            margin-top: 10px;}
+}
 /* IMG Class for images */
 
 .IMG{
@@ -185,7 +193,21 @@ a:hover{
 .media span{
     height:fit-content; 
 }
-
+@media(max-width:1350px){
+    .mediabar{
+        display:block;
+    }
+    .media{
+        width:80%;
+        padding-top:15px;
+        display: block;
+        margin-top:20px;
+        padding-bottom:3px;
+    }
+    .media span{padding:0;
+        margin:0;
+    }
+}
 
 
 /* Contact form */
@@ -220,7 +242,6 @@ form textarea{
 }
 
 
-
 /* About page */
 .about1, .about3, .about2{
     width: 75%;
@@ -233,6 +254,11 @@ form textarea{
 }
 .about3 h4, .about3 p{
     display: inline;
+    
+}
+.about3{
+    text-align: left;
+    padding-left: 25px;
 }
 .about3 h4{
     padding:0 .5rem;
@@ -241,4 +267,11 @@ form textarea{
     background-size: 100% 5px;
     background-repeat: no-repeat;
     background-position-y: 27px;
+}
+@media (max-width:800px){
+    .about1, .about3, .about2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
 }
