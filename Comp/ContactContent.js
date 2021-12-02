@@ -16,7 +16,7 @@ export default function Content(){
                 <p>@Connor Turner</p>
         </a>
         
-            <a className="media">
+            <a className="media media2">
                 
                 <span>
                 <Image src={Gmailimg} alt="Email icon"width={100}height={100}/>
