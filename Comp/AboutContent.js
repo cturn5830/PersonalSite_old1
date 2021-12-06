@@ -1,24 +1,9 @@
 import Image from "next/dist/client/image"
 import PlaceHolder from "../public/img/PHIMG.jpg"
 import React, {useState, Component} from "react"
-
+import RandomFacts from "./RandomFact"
 
 export default function AboutContent(){
-const [fact, setfact] = useState("")
-
-
-const FactsHere = [
-    "I'm currently 19 years young",
-    "I grew up in Ohio", 
-    "I have seven siblings"]
-
-let factshow = FactsHere[0]
-let num = 1
-
-function getRandomInt() {
-  let num = Math.floor(Math.random() * FactsHere.length);
-  setfact = FactsHere[num]
-}
 
     return(
     <div className="content">
@@ -83,14 +68,6 @@ function getRandomInt() {
 <p>Value 4 here</p>
 <br/>
 </div>
-
-
-{// Random fact section
-}
-
-        <div id="randominfo">Random facts display below<br/>
-        <span className="randomfacts">{fact}</span>
-        </div>
-            <button id="factbtn" onClick={getRandomInt}>Click Me!</button>
+<RandomFacts/>
     </div>)
 }

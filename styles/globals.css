@@ -299,3 +299,21 @@ form textarea{
         margin-right: auto;
 }
 }
+/* random facts */
+.randomfactdiv div{
+    padding:40px;
+    margin:15px;
+    background-color:purple;
+    border-radius: 15px;
+    height:fit-content
+}
+.randomfactdiv{
+    display: flex;
+    align-content: space-between;
+}
+.RandomfactBTN{
+    border:none;
+    border-radius: 15px;
+    background-color: blue;
+    color:white;
+}
