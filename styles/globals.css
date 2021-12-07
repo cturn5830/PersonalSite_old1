@@ -21,7 +21,7 @@ html{
 body{
     width:inherit;
     color:rgb(216, 216, 216);
-    margin:0 auto 0 auto !important;
+    margin:0 auto 0 auto;
     padding:0 30px 20px 30px;
     font-family: sans-serif;
     font-size: 25px;
@@ -170,7 +170,19 @@ a:hover{
     max-width: 1265px;
     color:rgb(24, 24, 24);
 }
-
+@media(max-width:600px){
+    .content{
+        margin:none;
+        min-width: 100%
+    }
+    body{
+        margin:0;
+        padding:0;
+    }
+}
+@media(max-width:400px){
+    .content{min-width: 400px;}
+}
 /* Contact Content */
 .mediabar{
     display:flex;
@@ -187,11 +199,14 @@ a:hover{
     width: 30%;
     margin-left:auto;
     margin-right:auto;
-    
     box-shadow: 12px 12px 15px black;
 }
 .media:hover{
-    background-color: rgba(175,175,175,75%) ; 
+    background-color: rgba(175,175,175,75%) ;
+    padding: 25px;
+}
+.media2:hover{
+    padding:40px 25px!important
 }
 .media p{
     padding: 0 20px;
@@ -283,6 +298,10 @@ form textarea{
 .about3{
     text-align: left;
     padding-left: 25px;
+    border-bottom: none;
+}
+.about3 div{
+    margin-bottom: 15px;
 }
 .about3 h4{
     padding:0 .5rem;
@@ -300,20 +319,54 @@ form textarea{
 }
 }
 /* random facts */
+
+.randomfacttitlediv{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top:solid 3px;
+}
 .randomfactdiv div{
-    padding:40px;
-    margin:15px;
-    background-color:purple;
+    background-color: rgba(194, 158, 218, 0.35) ;
     border-radius: 15px;
-    height:fit-content
+    min-width: 50%;
+    padding:2em 1em;
+    box-shadow: 12px 12px 15px black;
+    margin-bottom: 15px;
 }
 .randomfactdiv{
     display: flex;
-    align-content: space-between;
+    justify-content: space-evenly;
+}
+@media(max-width:870px){
+    .randomfactdiv{
+        display: block;
+    }
+    .randomfactdiv div{
+        margin-bottom: 25px;
+    }
 }
 .RandomfactBTN{
+    margin-top: auto;
+    margin-bottom: auto;
     border:none;
     border-radius: 15px;
-    background-color: blue;
-    color:white;
+    background-image:backgroundlinear-gradient(90deg,rgb(0, 4, 65), rgb(62, 0, 65));
+  
+}
+.RandomfactBTN{
+    background-image: linear-gradient(90deg,rgb(0, 4, 65), rgb(62, 0, 65));
+    height: 100%;
+    border:none;
+    color:rgba(224, 224, 224, 0.95) ;
+    padding:1rem;
+    border-radius: 13px;
+    font-family: 'Carter One', cursive;
+    transition:.7s !important;
+}
+.RandomfactBTN:hover{
+    cursor:pointer;
+    font-size: .7em;
+    color:rgb(163, 4, 163) !important;
+    transition:.7s !important;
 }

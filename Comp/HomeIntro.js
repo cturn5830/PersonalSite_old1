@@ -18,7 +18,6 @@ export default function Introcontent(){
             </p>
             </div>
         </div>
-        <Recentproject/>
         <HowIDoIt/>
     </div>)
 }
