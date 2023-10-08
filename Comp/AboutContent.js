@@ -3,11 +3,13 @@ import PlaceHolder from "../public/img/PHIMG.jpg"
 import React, {useState, Component} from "react"
 import RandomFacts from "./RandomFact"
 
+import styles from "../styles/Comp/AboutContent.module.css";
+
 export default function AboutContent(){
 
     return(
     <div className="content">
-<div className="about1">
+<div className={styles.about1}>
 
     <h2> Why I'm a Developer </h2>
     <p> Growing up I always wanted my devices
@@ -22,7 +24,7 @@ export default function AboutContent(){
            have translated directly into being a web-developer. </p>
 </div>
 
-<div className="about2">
+<div className={styles.about2}>
 
     <h2> My Goal </h2>
     <p> To solve problems and make life easier for 
@@ -30,7 +32,7 @@ export default function AboutContent(){
         internet. Helping others though websites, 
         ultimately helps myself as well.</p>
 </div> 
-<div className="about3">  {//VALUES!!!
+<div className={styles.about3}>  {//VALUES!!!
 }
 
 <h2> My Values </h2>

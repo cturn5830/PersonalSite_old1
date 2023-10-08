@@ -1,5 +1,7 @@
 import{useState} from "react"
 
+import styles from "../styles/Comp/RandomFact.module.css";
+
 export default function RandomFacts(){
 const [count,setCount] = useState("Click The Button!")
 const facts=["I grew up in Ohio till 2013",
@@ -22,11 +24,14 @@ function clickHandle(){
     setCount(facts[randomNum()])
 }
     return(<div>
-        <div className="randomfacttitlediv">
+        <div className={styles.randomfacttitlediv}>
             <h2>Want to Know More?</h2>
             </div>
-    <div className="randomfactdiv">
+    <div className={styles.randomfactdiv}>
 <div>{count}</div>
-<button className="RandomfactBTN" onClick={clickHandle}>Random Fact!</button>
+<div className={styles.spacer}>
+    <button className={styles.RandomfactBTN} onClick={clickHandle}>Random Fact!</button>
+</div>
+
     </div></div>)
 }

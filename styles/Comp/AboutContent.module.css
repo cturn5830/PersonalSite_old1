@@ -1,0 +1,36 @@
+.about1, .about3, .about2{
+    width: 75%;
+    border-bottom: 3px solid;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.about2{
+    margin-left:auto;
+}
+.about3 h4, .about3 p{
+    display: inline;
+    
+}
+.about3{
+    text-align: left;
+    padding-left: 25px;
+    border-bottom: none;
+}
+.about3 div{
+    margin-bottom: 15px;
+}
+.about3 h4{
+    padding:0 .5rem;
+    margin-right: .5rem;
+    background:linear-gradient(90deg, rgb(36, 94, 202),rgb(115, 19, 204));
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position-y: 27px;
+}
+@media (max-width:800px){
+    .about1, .about3, .about2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+}

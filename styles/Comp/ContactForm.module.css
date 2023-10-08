@@ -1,0 +1,39 @@
+.FormContainer{
+    background-color: rgba(175,175,175,40%) ;
+    border-radius: 15px;
+    margin:10px auto 15px auto;
+    width:95%;
+    padding:10px;
+    box-shadow: 12px 12px 15px black;
+}
+.form{
+    padding:15px;
+}
+.form input, .form textarea{
+    display: block;
+    margin:0 auto 20px auto;
+    padding-left:10px;
+    height:20px;
+    width:45%;
+    border:rgb(4, 0, 53) 2px solid;
+    border-radius: 10px;
+}
+
+.form textarea{
+    height: 60px;
+    font-family: sans-serif;
+}
+.FormIntrotext{
+    
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+@media(max-width:1350px){
+    .form input, .form textarea{
+        width:85%;
+        height:35px;
+    }
+    .form textarea{
+        height:80px !important;
+    }
+}

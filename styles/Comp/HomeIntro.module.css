@@ -1,0 +1,24 @@
+.home1{
+    width:80%;
+    margin:0 auto 30px auto;
+    border:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Greeting{
+    width:100%;
+    padding:0 10px;
+}
+.Heroimg{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left: auto;
+    box-shadow: black 5px 5px 15px;
+    width: 50%;
+}
+@media (max-width:1000px){
+    .home1{display: inline !important;}
+    .Heroimg{width:90% !important;
+            margin-top: 10px;}
+}

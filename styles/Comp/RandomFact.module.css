@@ -1,0 +1,69 @@
+.randomfacttitlediv{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top:solid 3px;
+}
+.randomfactdiv div{
+    background: 
+    linear-gradient(217deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) 70.71%),
+    linear-gradient(127deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) 70.71%);
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 100%;
+    padding:2em 0em;
+    box-shadow: 12px 12px 15px black;
+    margin-bottom: 15px;
+}
+.randomfactdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:870px){
+    .randomfactdiv{
+        display: block;
+    }
+    .randomfactdiv div{
+        margin-bottom: 25px;
+    }
+}
+.RandomfactBTN{
+    margin-top: auto;
+    margin-bottom: auto;
+    border:none;
+    border-radius: 15px;
+    background-image:backgroundlinear-gradient(90deg,rgb(0, 4, 65), rgb(62, 0, 65));
+  
+}
+.RandomfactBTN{
+    background-image: linear-gradient(90deg,rgb(0, 4, 65), rgb(62, 0, 65));
+    height: 60px;
+    border:none;
+    color:rgba(224, 224, 224, 0.95) ;
+    padding:1rem;
+    border-radius: 13px;
+    font-family: 'Carter One', cursive;
+    transition:.7s !important;
+    margin:0!important;
+    position: relative;
+    top:-15px
+}
+.RandomfactBTN:hover{
+    cursor:pointer;
+    font-size: .7em;
+    color:rgb(163, 4, 163) !important;
+    transition:.7s !important;
+    top:-25px;
+}
+.spacer{
+    background: linear-gradient(0deg, rgba(178, 135, 186,0) 50%, rgba(255, 255, 255, 0) 100%) !important;
+    height: 10px;
+    box-shadow: none !important;
+}

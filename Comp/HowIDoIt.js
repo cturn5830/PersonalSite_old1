@@ -5,17 +5,21 @@ import CSSimg from "../public/img/CSS.png"
 import JSimg from "../public/img/JS.png"
 import REACTimg from "../public/img/React.png"
 import WPimg from "../public/img/WordPress.png"
+import NJSimg from "../public/img/NextJS2.png"
 
+import styles from "../styles/Comp/HowIDoIt.module.css";
 
 export default function HowIDoIt(){
-    return(<div className="HowIDoIt">
+    return(<div className={styles.HowIDoIt}>
         <h2>How I Do It</h2>
-        <div className="HIDIimg">
+        <div className={styles.HIDIimg}>
 <Image src={HTMLimg} alt="HTML"/>
 <Image src={CSSimg} alt="CSS"/>
 <Image src={JSimg} alt="Java Script"/>
 <Image src={REACTimg} alt="React"/>
+<Image src={NJSimg} alt="React"/>
 <Image src={WPimg} alt="Wordpress"/>
+
 </div>
     </div>)
 }

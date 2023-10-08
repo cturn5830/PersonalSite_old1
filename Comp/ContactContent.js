@@ -5,18 +5,20 @@ import Gmailimg from "../public/img/gmailICON.png"
 
 import Form from "./ContactForm"
 
+import styles from "../styles/Comp/ContactContent.module.css";
+
 export default function Content(){
     return(<div className="content">
         <h2>Contact</h2>
-        <div className="mediabar">
-        <a className="media" target="_blank" href="https://www.facebook.com/profile.php?id=100005501896410">
+        <div className={styles.mediabar}>
+        <a className={styles.media} target="_blank" href="https://www.facebook.com/profile.php?id=100005501896410">
                 <span>
                 <Image src={Facebookimg} alt="facebook icon"width={100}height={100}/>
                 </span>
                 <p>@Connor Turner</p>
         </a>
         
-            <a className="media media2">
+            <a className={styles.media}>
                 
                 <span>
                 <Image src={Gmailimg} alt="Email icon"width={100}height={100}/>
@@ -25,7 +27,7 @@ export default function Content(){
                 
             </a>
        
-        <a className="media" target="_blank" href="https://www.instagram.com/captainturn/">
+        <a className={styles.media} target="_blank" href="https://www.instagram.com/captainturn/">
                 <span>
                 <Image src={Instaimg} alt="Instagram icon"width={100}height={100}/>
                 </span>

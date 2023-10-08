@@ -4,12 +4,14 @@ import Recentproject from "./RecentProjects"
 import Heroimg from "../public/img/HeroImg.jpg"
 import HowIDoIt from "./HowIDoIt"
 
+import styles from "../styles/Comp/HomeIntro.module.css";
+
 
 export default function Introcontent(){
     return(<div className="content">
-        <div className="home1">
-            <img className="Heroimg" src="/img/HeroImg.jpg" alt="Hero"/>
-            <div className="Greeting">
+        <div className={styles.home1}>
+            <img className={styles.Heroimg} src="/img/HeroImg.jpg" alt="Hero"/>
+            <div className={styles.Greeting}>
             <h2>Howdy There!</h2>
             <p>What am I all about? 
                 Building websites of course! 
